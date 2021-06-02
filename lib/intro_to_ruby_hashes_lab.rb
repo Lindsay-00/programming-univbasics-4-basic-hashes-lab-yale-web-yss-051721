@@ -4,12 +4,15 @@ end
 
 def my_hash
   a = {
-    :name  "lindsay"
+    :name => "lindsay"
   }
 end
 p my_hash
+
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  hash = {
+    :name => "Grace Hopper"
+  }
 end
 
 

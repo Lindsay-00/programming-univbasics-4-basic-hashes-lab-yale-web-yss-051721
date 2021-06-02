@@ -4,7 +4,7 @@ end
 
 def my_hash
   a = Hash.new
-  a [:now = 123]
+  a [:abc = 123]
 end
 
 def pioneer

@@ -3,8 +3,8 @@ def new_hash
 end
 
 def my_hash
-  a = Hash.new
-  a [ abc: ] = "123"
+  a = {}
+  a [ :abc ] = "123"
 end
 p my_hash
 def pioneer

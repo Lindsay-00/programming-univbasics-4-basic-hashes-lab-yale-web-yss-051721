@@ -4,7 +4,7 @@ end
 
 def my_hash
   a = {}
-  a [ :abc ] = "123"
+  a["abc"] = "123"
 end
 p my_hash
 def pioneer
